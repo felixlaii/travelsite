@@ -23,33 +23,37 @@
   color: black;
 }
 
-.main-advert-section {
+.main-advert {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #fefaf5;
   color: #335576;
   max-width: 100%;
-  height: auto;
+  height: 700px;
 }
-.main-advert-section__image {
-  max-width: 100%;
+.main-advert__image {
+  max-width: 500px;
   height: auto;
-  display: flex;
-  justify-content: flex-end;
-  padding-left: 30rem;
-  margin-left: 30rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-left: 250px;
 }
-.main-advert-section__title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.main-advert__left {
+  max-width: 500px;
+}
+.main-advert__left__title {
+  color: #335576;
+  font-size: 1000px;
+}
+.main-advert__left__description {
   color: #335576;
 }
-.main-advert-section__description {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #335576;
-}
-.main-advert-section__left {
-  display: flex;
-  justify-content: flex-start;
+.main-advert__left__button {
+  padding: 10px;
+  background-color: #DB7A4E;
 }
 
 .recommendations-card {

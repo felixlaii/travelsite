@@ -29,38 +29,49 @@
 }
 
 // Main Advertisement Section
-.main-advert-section {
+
+.main-advert {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #fefaf5;
     color: #335576;
     max-width: 100%;
-    height: auto;
+    height: 700px;
 
     &__image {
-        max-width: 100%;
+        max-width: 500px;
         height: auto;
-        display: flex;
-        justify-content: flex-end;
-        padding-left: 30rem;
-        margin-left: 30rem;
-    }
-
-    &__title {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #335576;
-    }
-
-    &__description {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #335576;
+        object-fit: contain;
+        padding-left: 250px;
     }
 
     &__left {
-        display: flex;
-        justify-content: flex-start;
+        max-width: 500px;
+
+    &__title {
+        color: #335576;
+        font-size: 1000px;
     }
+    &__description {
+        color: #335576;
+    }
+    &__button {
+        padding: 10px;
+        background-color: #DB7A4E;
+        
+      
+
+    }
+
+        
+    }
+
 }
+
+
 
 // Recommendation Cards
 .recommendations-card {

@@ -27,7 +27,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .itinary-card__header {
-  bottom: 100px;
+  position: absolute;
+  bottom: 500px;
+  right: 800px;
+  font-size: 65px;
   color: #FFFFFF;
 }
 .itinary-card__title1 {
@@ -48,12 +51,12 @@
   position: absolute;
   top: 300px;
   right: 500px;
-  left: 800px;
+  left: 900px;
   font-size: 20px;
 }
 .itinary-card__image {
   width: 100%;
-  height: 500px;
+  height: 800px;
   margin: 0px;
   -o-object-fit: cover;
      object-fit: cover;
