@@ -21,4 +21,50 @@
 .destinations-nav__item {
   padding: 10px;
   color: black;
+}
+
+.itinary-card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.itinary-card__header {
+  bottom: 100px;
+  color: #FFFFFF;
+}
+.itinary-card__title1 {
+  position: absolute;
+  top: 300px;
+  right: 600px;
+  left: 350px;
+  font-size: 20px;
+}
+.itinary-card__title2 {
+  position: absolute;
+  top: 300px;
+  right: 1000px;
+  left: 600px;
+  font-size: 20px;
+}
+.itinary-card__title3 {
+  position: absolute;
+  top: 300px;
+  right: 500px;
+  left: 800px;
+  font-size: 20px;
+}
+.itinary-card__image {
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.itinary-card__1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 100px;
+  bottom: 1000px;
+}
+.itinary-card__description {
+  list-style: none;
 }/*# sourceMappingURL=destinations.css.map */

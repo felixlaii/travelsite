@@ -25,7 +25,7 @@
 
 .main-advert-section {
   display: flex;
-  align-content: space-around;
+  justify-content: flex-end;
   background: #fefaf5;
   color: #335576;
   max-width: 100%;
@@ -46,6 +46,10 @@
 .main-advert-section__description {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #335576;
+}
+.main-advert-section__left {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .recommendations-card {

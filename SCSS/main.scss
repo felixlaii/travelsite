@@ -31,7 +31,7 @@
 // Main Advertisement Section
 .main-advert-section {
     display: flex;
-    align-content: space-around;
+    justify-content: flex-end;
     background: #fefaf5;
     color: #335576;
     max-width: 100%;
@@ -54,6 +54,11 @@
     &__description {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #335576;
+    }
+
+    &__left {
+        display: flex;
+        justify-content: flex-start;
     }
 }
 
