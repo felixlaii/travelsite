@@ -1,5 +1,7 @@
 @use "partials/mixins" as *;
 
+
+// Primary Navigation - Home Page 
 .primary-nav {
     @include flexrow;
     background-color: #FFFFFF;
@@ -26,6 +28,7 @@
     }
 }
 
+// Main Advertisement Section
 .main-advert-section {
     display: flex;
     align-content: space-around;
@@ -54,6 +57,7 @@
     }
 }
 
+// Recommendation Cards
 .recommendations-card {
     @include flexrow;
     justify-content: space-between;
@@ -105,6 +109,7 @@
     }
 }
 
+// Footer
 .about-section {
     @include flexrow;
     background-color: #fefaf5;
