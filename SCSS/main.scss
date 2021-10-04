@@ -1,4 +1,4 @@
-@import url(/SCSS/Partials/_mixins.scss);
+@use "partials/mixins" as *;
 
 .primary-nav {
     @include flexrow;
