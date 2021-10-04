@@ -1,0 +1,122 @@
+@import url(/SCSS/Partials/_mixins.scss);
+
+.primary-nav {
+    @include flexrow;
+    background-color: #FFFFFF;
+    color: #335576;
+    position: fixed;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    &__title {
+        padding-left: 50px;
+    }
+
+    &__list {
+        @include flexrow;
+        justify-content: flex-end;
+        list-style: none;
+        padding-left: 900px;
+        color: black;
+    }
+
+    &__item {
+        padding: 10px;
+        color: black;
+    }
+}
+
+.main-advert-section {
+    display: flex;
+    align-content: space-around;
+    background: #fefaf5;
+    color: #335576;
+    max-width: 100%;
+    height: auto;
+
+    &__image {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 30rem;
+        margin-left: 30rem;
+    }
+
+    &__title {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #335576;
+    }
+
+    &__description {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #335576;
+    }
+}
+
+.recommendations-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: auto;
+    height: auto;
+    margin: 50px 250px 50px 250px;
+    // border-radius: 5px;
+    // box-shadow: 0px 4px 4px 0px black;
+
+    &__image {
+        // display: flex;
+        // align-content: space-between;
+        max-width: 400px;
+        height: 400px;
+        box-shadow: 0px 4px 4px rgba(0,0,0,.2);
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
+    }
+
+    &__title {
+        color: #335576;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        // align-content: left;
+        font-size: 25px;
+        padding-left: 100px;
+    }
+}
+
+.about-section {
+    background-color: #fefaf5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    &__sub {
+        color: #db7a43;
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+
+    &__title {
+        color: #335576;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 23px;
+        padding: 20px 0px 5px 0px;
+    }
+    
+    &__description {
+        color: #335576;
+        display: flex;
+        align-items: baseline;
+        padding-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    &__hours2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: end;
+        padding-bottom: 0px;
+    }
+}
+

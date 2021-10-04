@@ -1,0 +1,104 @@
+@import url(/SCSS/Partials/_mixins.scss);
+.primary-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  color: #335576;
+  position: fixed;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.primary-nav__title {
+  padding-left: 50px;
+}
+.primary-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 900px;
+  color: black;
+}
+.primary-nav__item {
+  padding: 10px;
+  color: black;
+}
+
+.main-advert-section {
+  display: flex;
+  align-content: space-around;
+  background: #fefaf5;
+  color: #335576;
+  max-width: 100%;
+  height: auto;
+}
+.main-advert-section__image {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 30rem;
+  margin-left: 30rem;
+}
+.main-advert-section__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #335576;
+}
+.main-advert-section__description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #335576;
+}
+
+.recommendations-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: auto;
+  height: auto;
+  margin: 50px 250px 50px 250px;
+}
+.recommendations-card__image {
+  max-width: 400px;
+  height: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.recommendations-card__title {
+  color: #335576;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-content: left;
+  font-size: 25px;
+}
+
+.about-section {
+  background-color: #fefaf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-section__sub {
+  color: #db7a43;
+  font-size: 10px;
+  padding-bottom: 0px;
+}
+.about-section__title {
+  color: #335576;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  padding: 20px 0px 5px 0px;
+}
+.about-section__description {
+  color: #335576;
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 20px;
+}
+.about-section__hours2 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: end;
+  padding-bottom: 0px;
+}/*# sourceMappingURL=main.css.map */
