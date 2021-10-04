@@ -1,0 +1,23 @@
+@use "partials/mixins" as *;
+
+.destinations-nav {
+    @include flexrow;
+    @include navstyle;
+
+    &__title {
+        padding-left: 50px;
+    }
+
+    &__list {
+        @include flexrow;
+        justify-content: flex-end;
+        list-style: none;
+        padding-left: 900px;
+        color: black;
+    }
+
+    &__item {
+        padding: 10px;
+        color: black;
+    }
+}

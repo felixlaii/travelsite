@@ -1,2 +1,24 @@
-
-/*# sourceMappingURL=destinations.css.map *//*# sourceMappingURL=destinations.css.map */
+.destinations-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  color: #335576;
+  position: fixed;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.destinations-nav__title {
+  padding-left: 50px;
+}
+.destinations-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 900px;
+  color: black;
+}
+.destinations-nav__item {
+  padding: 10px;
+  color: black;
+}/*# sourceMappingURL=destinations.css.map */
