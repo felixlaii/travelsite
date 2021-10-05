@@ -26,6 +26,17 @@
         padding: 10px;
         color: black;
     }
+
+    &__link {
+        text-decoration: none;
+        color: #335576;
+    }
+    &__link--active {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #DB7A4E;  
+    }
+    
 }
 
 // Main Advertisement Section

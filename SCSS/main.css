@@ -22,6 +22,16 @@
   padding: 10px;
   color: black;
 }
+.primary-nav__link {
+  text-decoration: none;
+  color: #335576;
+}
+.primary-nav__link--active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-color: #DB7A4E;
+          text-decoration-color: #DB7A4E;
+}
 
 .main-advert {
   display: flex;

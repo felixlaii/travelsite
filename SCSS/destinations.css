@@ -22,6 +22,16 @@
   padding: 10px;
   color: black;
 }
+.destinations-nav__link {
+  text-decoration: none;
+  color: #335576;
+}
+.destinations-nav__link--active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-color: #DB7A4E;
+          text-decoration-color: #DB7A4E;
+}
 
 .itinary-card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -106,48 +116,16 @@
      object-fit: cover;
 }
 .itinary-card .about-section {
-  display: flex;
-  flex-direction: row;
   background-color: #fefaf5;
   justify-content: space-evenly;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.itinary-card .about-section__sub {
+.itinary-card .about-section__sub2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   color: #db7a43;
   font-size: 10px;
-  padding-bottom: 0px;
-}
-.itinary-card .about-section__title {
-  color: #335576;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 23px;
-  padding: 20px 0px 5px 0px;
-}
-.itinary-card .about-section__description {
-  color: #335576;
-  display: flex;
-  align-items: baseline;
-  padding-bottom: 20px;
-  padding-top: 5px;
-}
-.itinary-card .about-section__hours2 {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  justify-content: end;
-  padding-bottom: 0px;
-}
-.itinary-card .about-section {
-  display: flex;
-  flex-direction: row;
-  background-color: #fefaf5;
-  justify-content: space-evenly;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.itinary-card .about-section__sub {
-  color: #db7a43;
-  font-size: 10px;
-  padding-bottom: 0px;
 }
 .itinary-card .about-section__title {
   color: #335576;

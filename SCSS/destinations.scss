@@ -3,7 +3,7 @@
 .destinations-nav {
     @include flexrow;
     @include navstyle;
-
+    
     &__title {
         padding-left: 50px;
     }
@@ -19,6 +19,15 @@
     &__item {
         padding: 10px;
         color: black;
+    }
+    &__link {
+        text-decoration: none;
+        color: #335576;
+    }
+    &__link--active {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #DB7A4E;  
     }
 }
 
@@ -100,25 +109,28 @@
         object-fit: cover;
     }    
 
-    .about-section {
-    @include flexrow;
+.about-section {
+    // @include flexrow;
     background-color: #fefaf5;
     justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-    &__sub {
+       
+    &__sub2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
         color: #db7a43;
         font-size: 10px;
-        padding-bottom: 0px;
+       
     }
-
+    
     &__title {
         color: #335576;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 23px;
         padding: 20px 0px 5px 0px;
     }
-    
+        
     &__description {
         color: #335576;
         display: flex;
@@ -126,7 +138,7 @@
         padding-bottom: 20px;
         padding-top: 5px;
     }
-
+    
     &__hours2 {
         display: flex;
         flex-direction: column;
@@ -134,41 +146,5 @@
         justify-content: end;
         padding-bottom: 0px;
     }
-    }
-    .about-section {
-        @include flexrow;
-        background-color: #fefaf5;
-        justify-content: space-evenly;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-       
-        &__sub {
-            color: #db7a43;
-            font-size: 10px;
-            padding-bottom: 0px;
-        }
-    
-        &__title {
-            color: #335576;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 23px;
-            padding: 20px 0px 5px 0px;
-        }
-        
-        &__description {
-            color: #335576;
-            display: flex;
-            align-items: baseline;
-            padding-bottom: 20px;
-            padding-top: 5px;
-        }
-    
-        &__hours2 {
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            justify-content: end;
-            padding-bottom: 0px;
-        }
-    }
-
+}
 }
