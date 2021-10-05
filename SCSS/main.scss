@@ -1,14 +1,15 @@
 @use "partials/mixins" as *;
+@use "partials/colors" as *;
 
 
 // Primary Navigation - Home Page 
 .primary-nav {
     @include flexrow;
-    background-color: #FFFFFF;
-    color: #335576;
+    @include primaryfont;
+    background-color: $primary-bg-color;
+    color: $primaryfontcolor;
     position: fixed;
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     &__title {
         padding-left: 50px;
@@ -29,7 +30,7 @@
 
     &__link {
         text-decoration: none;
-        color: #335576;
+        color: $primaryfontcolor;
     }
     &__link--active {
         text-decoration: underline;
@@ -42,13 +43,13 @@
 // Main Advertisement Section
 
 .main-advert {
+    @include primaryfont;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #fefaf5;
-    color: #335576;
+    color: $primaryfontcolor;
     max-width: 100%;
     height: 700px;
 
@@ -63,25 +64,17 @@
         max-width: 500px;
 
     &__title {
-        color: #335576;
+        color: $primaryfontcolor;
         font-size: 1000px;
     }
     &__description {
-        color: #335576;
+        color: $primaryfontcolor;
     }
     &__button {
         width: 20px; height: 20px; border: #DB7A4E; background-color: #DB7A4E;
-        
-      
-
     }
-
-        
     }
-
 }
-
-
 
 // Recommendation Cards
 .recommendations-card {
@@ -101,35 +94,35 @@
     }
 
     &__title {
-        color: #335576;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        @include primaryfont;
+        color: $primaryfontcolor;
         font-size: 25px;
         padding-left: 100px;
     }
 
     &__description1 {
+        @include primaryfont;
         position: absolute;
-        color: #FFFFFF;
+        color: $primary-bg-color;
         font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         bottom: 10px;
         left: 150px;
     }
 
     &__description2 {
+        @include primaryfont;
         position: absolute;
-        color: #FFFFFF;
+        color: $primary-bg-color;
         font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         bottom: 10px;
         left: 460px;
     }
 
     &__description3 {
+        @include primaryfont;
         position: absolute;
-        color: #FFFFFF;
+        color: $primary-bg-color;
         font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         bottom: 10px;
         left: 790px;
     }
@@ -138,13 +131,12 @@
 // Footer
 .about-section {
     @include flexrow;
+    @include primaryfont;
     justify-content: space-evenly;
     background-color: #fefaf5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     &__sub {
-        display: flex;
-        flex-direction: row;
+        @include flexrow;
         justify-content: center;
         align-items: center;
         color: #db7a43;
@@ -154,9 +146,9 @@
 
     &__title {
         @include flexrow;
+        @include primaryfont;
         justify-content: space-evenly;
-        color: #335576;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: $primaryfontcolor;
         font-size: 23px;
         padding: 20px 0px 5px 0px;
     }
@@ -166,7 +158,7 @@
         @include flexrow;
         align-items: flex-end;
         justify-content: left;
-        color: #335576;
+        color: $primaryfontcolor;
         padding-bottom: 20px;
         padding-top: 5px;
     }

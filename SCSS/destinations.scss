@@ -1,4 +1,5 @@
 @use "partials/mixins" as *;
+@use "partials/colors" as *;
 
 .destinations-nav {
     @include flexrow;
@@ -22,7 +23,7 @@
     }
     &__link {
         text-decoration: none;
-        color: #335576;
+        color: $primaryfontcolor;
     }
     &__link--active {
         text-decoration: underline;
@@ -32,7 +33,7 @@
 }
 
 .itinary-card {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @include primaryfont;
     height: 800px;
 
     &__header {
@@ -40,13 +41,13 @@
         bottom: 500px;
         right: 1040px;
         font-size: 65px;
-        color: #FFFFFF;
+        color: $primary-bg-color;
     }
 
     &__friday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: #FFFFFF; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
         bottom: 550px; 
         border-radius: 5px;
         padding-top: 1px;
@@ -73,7 +74,7 @@
     &__saturday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: #FFFFFF; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
         bottom: 960px; 
         left: 320px;
         border-radius: 5px;
@@ -89,7 +90,7 @@
     &__sunday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: #FFFFFF; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
         bottom: 1370px; 
         left: 640px;
         border-radius: 5px;
@@ -111,13 +112,12 @@
 
 .about-section {
     @include flexrow;
+    @include primaryfont;
     justify-content: space-evenly;
     background-color: #fefaf5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
        
     &__sub {
-        display: flex;
-        flex-direction: row;
+        @include flexrow;
         justify-content: center;
         align-content: center;
         color: #db7a43;
@@ -127,9 +127,9 @@
     
     &__title {
         @include flexrow;
+        @include primaryfont;
         justify-content: space-evenly;
-        color: #335576;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: $primaryfontcolor;
         font-size: 23px;
         padding: 20px 0px 5px 0px;
     }
@@ -139,7 +139,7 @@
         @include flexrow;
         align-items: flex-end;
         justify-content: left;
-        color: #335576;
+        color: $primaryfontcolor;
         padding-bottom: 20px;
         padding-top: 5px;
     }

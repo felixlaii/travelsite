@@ -118,9 +118,9 @@
 .itinary-card .about-section {
   display: flex;
   flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-evenly;
   background-color: #fefaf5;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .itinary-card .about-section__sub {
   display: flex;
@@ -133,9 +133,9 @@
 .itinary-card .about-section__title {
   display: flex;
   flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-evenly;
   color: #335576;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 23px;
   padding: 20px 0px 5px 0px;
 }

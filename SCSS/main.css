@@ -1,11 +1,11 @@
 .primary-nav {
   display: flex;
   flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #FFFFFF;
   color: #335576;
   position: fixed;
   width: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .primary-nav__title {
   padding-left: 50px;
@@ -34,11 +34,11 @@
 }
 
 .main-advert {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
   align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #fefaf5;
   color: #335576;
   max-width: 100%;
@@ -85,32 +85,32 @@
   border-radius: 5px;
 }
 .recommendations-card__title {
-  color: #335576;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #335576;
   font-size: 25px;
   padding-left: 100px;
 }
 .recommendations-card__description1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   color: #FFFFFF;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   bottom: 10px;
   left: 150px;
 }
 .recommendations-card__description2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   color: #FFFFFF;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   bottom: 10px;
   left: 460px;
 }
 .recommendations-card__description3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   color: #FFFFFF;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   bottom: 10px;
   left: 790px;
 }
@@ -118,9 +118,9 @@
 .about-section {
   display: flex;
   flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-evenly;
   background-color: #fefaf5;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .about-section__sub {
   display: flex;
@@ -133,9 +133,9 @@
 .about-section__title {
   display: flex;
   flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-evenly;
   color: #335576;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 23px;
   padding: 20px 0px 5px 0px;
 }
