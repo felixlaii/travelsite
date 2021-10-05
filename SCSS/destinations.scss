@@ -110,13 +110,14 @@
     }    
 
 .about-section {
-    // @include flexrow;
-    background-color: #fefaf5;
+    @include flexrow;
     justify-content: space-evenly;
+    background-color: #fefaf5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
        
     &__sub2 {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-content: center;
         color: #db7a43;
@@ -125,26 +126,40 @@
     }
     
     &__title {
+        @include flexrow;
+        justify-content: space-evenly;
         color: #335576;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 23px;
         padding: 20px 0px 5px 0px;
     }
         
-    &__description {
+    &__description,
+    &__description2 {
+        @include flexrow;
+        align-items: flex-end;
+        justify-content: left;
         color: #335576;
-        display: flex;
-        align-items: baseline;
         padding-bottom: 20px;
         padding-top: 5px;
     }
     
     &__hours2 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        justify-content: end;
+        @include flexrow;
+        justify-content: center;
         padding-bottom: 0px;
+    }
+    &__images {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 29px;
+
+    }
+    &__ig,
+    &__fb,
+    &__twitter {
+        max-width: 20px;
+        max-height: 20px;
     }
 }
 }
