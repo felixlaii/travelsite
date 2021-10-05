@@ -70,10 +70,20 @@
     &__description {
         color: $primaryfontcolor;
     }
-    &__button {
-        width: 20px; height: 20px; border: #DB7A4E; background-color: #DB7A4E;
     }
-    }
+.main-advert__button {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: $primary-bg-color;
+    background-color: #DB7A4E;
+    border-radius: 10px;
+    padding: 8px 5px 8px 5px;
+    width: 200px;
+
+}
 }
 
 // Recommendation Cards
