@@ -54,17 +54,18 @@
 .main-advert__left {
   max-width: 500px;
 }
-.main-advert__left__title {
+.main-advert__title {
   color: #335576;
   font-size: 1000px;
 }
-.main-advert__left__description {
+.main-advert__description {
   color: #335576;
 }
-.main-advert .main-advert__button {
+
+.main-advert__button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-decoration: none;
   color: #FFFFFF;
@@ -133,7 +134,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #db7a43;
+  color: #DB7A4E;
   font-size: 10px;
 }
 .about-section__title {

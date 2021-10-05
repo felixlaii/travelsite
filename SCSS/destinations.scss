@@ -28,7 +28,7 @@
     &__link--active {
         text-decoration: underline;
         text-decoration-thickness: 3px;
-        text-decoration-color: #DB7A4E;  
+        text-decoration-color: $accent-color;  
     }
 }
 
@@ -47,15 +47,14 @@
     &__friday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: $primary-bg-color;
         bottom: 550px; 
         border-radius: 5px;
         padding-top: 1px;
     }
 
     &__title1 {
-        display: flex;
-        justify-content: center;
+        @include flexcenter;
         font-size: 20px;
         border-bottom: 3px solid black; width: 265px;
         
@@ -67,22 +66,21 @@
         margin: 30px 40px 10px 10px;
         font-size: 18px;
         padding: 5px 5px 10px 50px;
-        background-color: #fefaf5;
+        background-color: $sec-bg-color;
         
     }
 
     &__saturday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: $primary-bg-color;
         bottom: 960px; 
         left: 320px;
         border-radius: 5px;
         padding-top: 1px;
     }
     &__title2 {
-        display: flex;
-        justify-content: center;
+        @include flexcenter;
         font-size: 20px;
         border-bottom: 3px solid black; width: 265px;
     }
@@ -90,15 +88,14 @@
     &__sunday {
         position: relative;
         margin: 50px 250px 50px 250px;
-        width: 270px; height: 360px; border: $primary-bg-color; background-color: #FFFFFF;
+        width: 270px; height: 360px; border: $primary-bg-color; background-color: $primary-bg-color;
         bottom: 1370px; 
         left: 640px;
         border-radius: 5px;
         padding-top: 1px;
     }
     &__title3 {
-        display: flex;
-        justify-content: center;
+        @include flexcenter;
         font-size: 20px;
         border-bottom: 3px solid black; width: 265px;
     }
@@ -114,13 +111,13 @@
     @include flexrow;
     @include primaryfont;
     justify-content: space-evenly;
-    background-color: #fefaf5;
+    background-color: $sec-bg-color;
        
     &__sub {
         @include flexrow;
         justify-content: center;
         align-content: center;
-        color: #db7a43;
+        color: $accent-color;
         font-size: 10px;
        
     }

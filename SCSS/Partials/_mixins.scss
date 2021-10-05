@@ -3,6 +3,12 @@
     flex-direction: row;
 }
 
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    
+}
+
 @mixin navstyle {
     background-color: #FFFFFF;
     color: #335576;
